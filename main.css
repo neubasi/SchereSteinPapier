@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+body {
+    background: rgb(49, 50, 68);
+}
+
+header { 
+    background: whitesmoke;
+    padding: 20px;
+
+}
+
+.score {
+    color:whitesmoke;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+}
+
+header > h1 {
+    color: rgb(49, 50, 68);
+    text-align: center;
+}
+
+.icons {
+    font-size: 40px;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+
+
+.flexIcon{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.iconText{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:whitesmoke;
+}
+
+.spruch{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color:whitesmoke;
+    padding: 40px;
+    font-weight: 600;
+}
+
+#text{
+    color:white;
+    display: flex;
+    padding: 20px;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.green {
+    border: 2px solid green;
+}
+
+.red {
+    border: 2px solid red;
+}
+
+.grey {
+    border: 2px solid grey;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header><h1>Schere Stein Papier</h1></header>
+
+    <div class="score"><span  style="font-size:20px;margin: 0px 20px;">Du </span>
+        <span id="userScore">0</span>:<span id="pcScore">0</span>
+        <span style="font-size:20px;margin: 0px 20px;"> PC</span>
+    </div>
+    <div id="text"></div>
+
+    <div class="flex-container flexIcon">
+      <div class="flex-container">
+        <i id="schere" onclick="newGame('schere')" class="fas fa-hand-scissors icons"></i>
+        <span class="iconText">Schere</span>
+      </div>
+      <div class="flex-container">
+        <i id="stein" onclick="newGame('stein')" class="fas fa-hand-rock icons"></i>
+        <span class="iconText">Stein</span>
+      </div>
+      <div class="flex-container">
+        <i id="papier" onclick="newGame('papier')" class="fas fa-hand-paper icons"></i>
+        <span class="iconText">Papier</span>
+      </div>
+    </div>
+    <div class="flex-container spruch">Treffe deine Auswahl.</div>
+  </body>
+</html>
